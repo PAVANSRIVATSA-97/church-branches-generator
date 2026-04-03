@@ -150,79 +150,65 @@ Where `id` is the branch ID from the database.
 2. Confirm the deletion
 3. The item is instantly removed
 
-**Note:** Deleting a branch will also delete all associated programs and services.
+**Note:** Deleting a branch will also delete all its associated programs and services.
 
 ## Features Implemented
 
 **Branch CRUD**
 
-- Create new branches with hero images
-- Edit all branch details
-- Delete branches with cascade delete
 - Automatic WordPress page generation
+- Create new branches with hero images
+- Edit and delete all branch details
 
 **Program Management**
 
-- Create unlimited programs per branch
+- Create programs per branch with no limits
 - Categorize programs (Weekly/Monthly/Special)
 - Delete individual programs
-- Display grouped by type on frontend
 
 **Service Management**
 
 - Add unlimited services per branch
-- Specify day and time for each service
+- Specify a day and time for each service
 - Delete individual services
-- Display on branch pages
 
 **Dynamic Frontend**
 
-- No Elementor editing required
+- No Elementor required
 - All content managed in admin panel
-- Real-time updates reflected on frontend
-- Responsive mobile design
+- Responsive for all devices
 
 **Get Directions Popup**
 
 - Google Maps embed
-- Smooth animations
-- Travel tips and landmarks
-- Keyboard accessible (Escape to close)
-- Click outside to dismiss
+- General travel tips and landmark information, unique info should be added in the **Directions Info field**
 
 **Settings**
 
-- Customize brand colors
+- Customize colors
 - Choose font family
-- Settings apply globally
 
 **Security**
 
-- All inputs sanitized
+- All inputs are sanitized
 - Nonce-protected forms
-- AJAX security
 
 ## Troubleshooting
 
 ### Database table not created
 
-- Go to **Church Branches** menu
-- If you see an error about missing tables, deactivate and reactivate the plugin
+- If you see an error about missing tables, **deactivate and reactivate** the plugin.
 
 ### Branch page not showing correctly
 
-- Make sure you've assigned a hero image
-- Check that the branch address is correct and accurate (it's used directly in Google Maps)
-- Verify programs and services are added
+- Check that the branch address is correct and accurate. (it's used directly in Google Maps)
 
 ### Changes not appearing on frontend
 
-- Clear any caching plugins you may have
-- Refresh the page
-- Changes are instant in the admin but may be cached
+- Changes are instant in the admin dashboard, but they may be cached. Give it a moment to update, then refresh your page.
 
 ### Get Directions not showing
 
 - Make sure you've entered a valid address in the branch settings
-- Google Maps will use this address to center the map
-- Add any extra information in the "Directions Info" field
+- Google Maps will center the map around this address
+- Add any special information in the "Directions Info" field
